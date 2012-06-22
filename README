@@ -2,7 +2,9 @@
 # How to build ICS kernel for SGH-I757M
 ########################################
 
-(1) Create a directory for CM9 and initialize it:  repo init -u  git://github.com/CyanogenMod/android.git -b ics
+(1) Create a directory for CM9 and initialize it:  
+
+	repo init -u  git://github.com/CyanogenMod/android.git -b ics
 
 
 (2) Update ~/<cm9_folder>/.repo/local_manifest.xml with this line:
@@ -14,7 +16,7 @@
 
 
 (4) Get Toolchain (i.e. a set of compiler tools meant for your device).  You may already have the correct one under ~/<cm9_folder>/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
-    
+	    	
    	Feature : ARM
 	Target OS : "EABI"
         Release : "Sourcery G++ Lite 2009q3-68"
