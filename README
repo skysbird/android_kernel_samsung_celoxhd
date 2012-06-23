@@ -36,7 +36,7 @@
     You can modify it if you want.
 
 
-(7) Compile as follow commands.
+(7) Compile as follows:
 
     $ make clean
     $ make mrproper
