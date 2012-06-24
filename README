@@ -36,7 +36,7 @@
     You can modify it if you want.
 
 
-(7) Compile as follows:
+(7) From kernel/samsung/msm8660-common, compile as follows:
 
     $ make clean
     $ make mrproper
