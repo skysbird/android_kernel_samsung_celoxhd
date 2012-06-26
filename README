@@ -53,6 +53,5 @@
 	#include "mcs8000_download.h"
 
 
-(9) If successfully built, get the zImage at: kernel/samsung/msm8660-common/arch/arm/boot/zImage
-
-
+(9) If successfully built, get the zImage at: kernel/samsung/msm8660-common/arch/arm/boot/zImage.  Remember also to get the module files (*.ko), which are shown in the output at the end of the build with their full paths.  These normally go under /system/lib/modules of your ROM.
+ 
