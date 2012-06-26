@@ -36,6 +36,11 @@
     You can modify it if you want.
 
 
+Skip the rest of the steps if you are building the kernel with the ROM (BoardConfig.mk: TARGET_KERNEL_CONFIG and TARGET_KERNEL_SOURCE have been set).  Step 8 may be important however.
+
+If you want to build the kernel by itself, then follow the rest of the steps.
+
+
 (7) From kernel/samsung/msm8660-common, compile as follows:
 
     $ make clean
