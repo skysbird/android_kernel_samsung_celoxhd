@@ -31,7 +31,7 @@
         CROSS_COMPILE	?= /home/dsixda/android/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-   //You have to modify this path!
 
 
-(6) Copy "msm8660_celoxhd_can_bmc_defconfig" to kernel/samsung/msm8660-common/arch/arm/configs/
+(6) Copy "cyanogenmod_celoxhd_defconfig" to kernel/samsung/msm8660-common/arch/arm/configs/
 
     You can modify it if you want.
 
@@ -45,7 +45,7 @@ If you want to build the kernel by itself, then follow the rest of the steps.
 
     $ make clean
     $ make mrproper
-    $ make msm8660_celoxhd_can_bmc_defconfig
+    $ make cyanogenmod_celoxhd_defconfig
     $ make
 
 
